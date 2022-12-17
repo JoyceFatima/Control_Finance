@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 15vh;
+  height: 10em;
   text-align: center;
   background: teal;
 `;

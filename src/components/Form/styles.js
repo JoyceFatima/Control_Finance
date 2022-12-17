@@ -11,7 +11,7 @@ export const Container = styled.div`
   justify-content: space-around;
   gap: 1em;
 
-  @media (max-width: 750px) {
+  @media (max-width: 950px) {
     display: grid;
   }
 `;

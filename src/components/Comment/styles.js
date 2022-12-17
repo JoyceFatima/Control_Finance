@@ -7,7 +7,7 @@ export const Container = styled.form`
   padding: .5em .8em;
   border-radius: 10px;
   display: flex;
-  box-shadow: 6px 5px 10px 0px;
+  box-shadow: 6px 5px 10px 0px grey;
   justify-content: space-around;
   gap: 1em;
   background-color: #d4d2d4;

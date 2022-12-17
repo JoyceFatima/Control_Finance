@@ -47,7 +47,7 @@ export const Comment = ({
       <C.Container onSubmit={onFormSubmit}>
         <C.Input
           type="text"
-          placeholder="Enter a Todo"
+          placeholder="Enter a To do"
           value={input}
           onChange={onInputChange}
           required

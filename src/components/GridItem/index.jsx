@@ -10,7 +10,12 @@ export const GridItem = ({ item, onDelete }) => {
   return (
     <C.Tr>
       <C.Td>{item.desc}</C.Td>
-      <C.Td>{item.amount}</C.Td>
+      <C.Td>
+        {Number(item.amount).toLocaleString('pt-br', {
+          style: 'currency',
+          currency: 'BRL',
+        })}
+      </C.Td>
       <C.Td>
         {item.expense ? (
           <FaRegArrowAltCircleDown color="red" />
